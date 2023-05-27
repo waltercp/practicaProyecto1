@@ -1,0 +1,115 @@
+.TouristPlacesList {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #0e5563;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    gap: 1em;
+    position: relative;
+
+}
+
+.knowledge-container-img {
+    min-width: 280px;
+    height: 200px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.knowledge-container-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.knowledge-container-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+.knowledge__title {
+    order: 1;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.knowledge__descripcion {
+    order: 2;
+    text-align: justify;
+    color: #4d494b;
+    font-size: 1.05em;
+}
+
+
+.knowledge__button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background-color: #336699;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 0.5em;
+    bottom: 1em;
+}
+
+.knowledge__fecha {
+    position: absolute;
+    order: 1;
+    align-self: flex-end;
+    top: 0em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    border: 2px solid #ccc;
+}
+
+.menu__responsive {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .TouristPlacesList {
+      flex-direction: column;
+    }
+  
+    .knowledge-container-img {
+      min-width: auto;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .knowledge-container-info {
+      align-items: flex-start;
+    }
+  
+    .knowledge__title {
+      font-size: 1.2em;
+    }
+  
+    .knowledge__descripcion {
+      font-size: 1em;
+    }
+  
+    .knowledge__button {
+      position: static;
+      align-self: flex-end;
+      margin-top: 10px;
+    }
+  
+    .knowledge__fecha {
+      position: static;
+      align-self: flex-end;
+      margin-top: 10px;
+    }
+  }

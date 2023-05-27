@@ -1,0 +1,17 @@
+.touristPlaces{
+    padding: 2em 6em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.touristPlaces__list{
+    width: 70vw;
+}
+
+@media (max-width: 768px) {
+    .touristPlaces{
+        align-items: center;
+    }
+    
+}
