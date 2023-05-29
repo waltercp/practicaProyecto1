@@ -9,10 +9,10 @@ const TouristPlacesList = ({ knowledge }) => {
             </div>
 
             <div className='knowledge-container-info'>
-                <h3  className='knowledge__title'>{knowledge.title}</h3>
+                <h3 className='knowledge__title'>{knowledge.title}</h3>
+                <p className='knowledge__fecha'>{knowledge.fecha}</p>
                 <p className='knowledge__descripcion'>{knowledge.descripcion}</p>
                 <button className='knowledge__button'>{knowledge.button}</button>
-                <p className='knowledge__fecha'>{knowledge.fecha}</p>
             </div>
         </div>
     );

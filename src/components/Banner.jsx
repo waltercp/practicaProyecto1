@@ -8,6 +8,12 @@ const Banner = () => {
         <img src="/banner.jpg" alt="" />
       </div>
 
+      <div className='inputText'>
+        <input className='buscar'  type="text" placeholder="Buscar" />
+        <i className='bx bx-search-alt'></i>
+      </div>
+
+
       <div className="destination-container">
         <div className="destination destination-1">
           <img src="/tourist/imagen2.jpg" alt="" />

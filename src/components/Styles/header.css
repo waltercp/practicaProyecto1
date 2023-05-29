@@ -47,7 +47,7 @@
 }
 
 .bx-menu,
-.bx-search-alt {
+.search-and-menu-icons .bx-search-alt {
   margin-right: 10px;
   font-size: 40px;
   color: white;
@@ -79,6 +79,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .menu__responsives li {
@@ -89,7 +90,7 @@
 }
 
 @media (max-width: 600px) {
-    .bx-search-alt{
+  .search-and-menu-icons .bx-search-alt{
       display: none;
     }
 
