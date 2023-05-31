@@ -1,11 +1,22 @@
-import React from 'react';
+
+
 import './Styles/banner.css';
 
 const Banner = () => {
+
+
   return (
     <div className='banner'>
+     
       <div className="banner-container">
         <img src="/banner.jpg" alt="" />
+        <div className='pelota a'>VIAJEROS</div>
+        <div className='pelota b'>HOLA</div>
+        <div className='waves'>
+          <div className='wave circulo a'></div>
+          <div className='wave circulo b'></div>
+          <div className='wave circulo c'></div>
+        </div>
       </div>
 
       <div className='inputText'>
@@ -13,11 +24,11 @@ const Banner = () => {
         <i className='bx bx-search-alt'></i>
       </div>
 
-
       <div className="destination-container">
-        <div className="destination destination-1">
+
+        <div  className="destination destination-1">
           <img src="/tourist/imagen2.jpg" alt="" />
-          <h4>MI VIAJE POR SUDAMERICA</h4>
+          <h4>  MI VIAJE POR SUDAMERICA</h4>
         </div>
 
         <div className="destination destination-2">
